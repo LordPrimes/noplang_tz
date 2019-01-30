@@ -17,5 +17,10 @@ Route::get('/', function () {
 
 
 Route::group(['namespace' => 'blog'] , function(){
- 
+   Route::get('login', 'BlogCoreController@login');
 });
+
+Route::group(['namespace' => 'Admin', 'middlewera' => ['web']] , function(){
+  
+   });
+

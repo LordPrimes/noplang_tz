@@ -7,5 +7,9 @@ use App\Http\Controllers\Controller;
 
 class BlogCoreController extends Controller
 {
-    //
+    public function login (){
+
+
+        return view('blog.login');
+    }
 }

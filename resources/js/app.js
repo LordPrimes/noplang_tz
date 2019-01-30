@@ -31,3 +31,6 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app'
 });
+
+import 'mdbootstrap/js/mdb.min.js';
+import 'bootstrap/dist/js/bootstrap.js';
